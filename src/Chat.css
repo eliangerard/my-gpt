@@ -1,0 +1,42 @@
+#chat {
+    margin-top: 1rem;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    width: 100%;
+    min-height: 85%;
+}
+
+#imageContainer {
+    min-height: 2rem;
+    width: 100%;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#imageContainer img {
+    width: 15rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    outline: var(--light-accent) solid 0px;
+    transition: outline 150ms;
+}
+#imageContainer img:hover {
+    outline: var(--light-accent) solid 4px;
+}
+#dallePrompt {
+    font-weight: bold;
+    color: var(--accent);
+    text-align: center;
+    width: 100%;
+}
+i {
+    width: 100%;
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: bold;
+    color: #00000070;
+    padding: 1rem 0;
+    border-radius: 1rem;
+}

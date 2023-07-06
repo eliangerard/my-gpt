@@ -1,0 +1,71 @@
+#prompt {
+    position: fixed;
+    bottom: 0;
+    margin: 1rem 1rem;
+    margin-bottom: 2rem;
+    width: calc(100% - (var(--app-margin) * 2) - 2rem - 15rem);
+    padding: 1rem;
+    background-color: var(--accent);
+    border-radius: 1rem;
+    height: 1.8rem;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 350ms, outline 150ms ease-in-out;
+    outline: var(--accent) solid 0px;
+}
+
+#prompt:focus-within {
+    outline: var(--light-accent) solid 5px;
+}
+
+#prompt:focus-within svg {
+    fill: var(--light-accent);
+}
+
+#prompt:focus-within input {
+    color: white;
+}
+
+#prompt input {
+    background-color: #00000000;
+    border: none;
+    color: var(--light-accent);
+    width: calc(100% - 5rem);
+    font-size: large;
+    font-weight: bold;
+
+    transition: color 350ms;
+}
+
+#prompt input:focus {
+    border: none;
+    outline: none;
+}
+#prompt input::placeholder {
+    color: var(--light-accent);
+}
+button {
+    border: none;
+    background-color: #00000000;
+}
+
+#prompt svg {
+    fill: var(--light-accent);
+    height: 1.8rem;
+    width: 1.8rem;
+    transition: fill 350ms;
+}
+#prompt svg:hover {
+    cursor: pointer;
+    fill: white;
+}
+#dallE {
+    position: absolute;
+    transform:translateY(-50%);
+    width: calc(100% - 4rem);
+}
+.promptDalle {
+    width: 100%;
+}

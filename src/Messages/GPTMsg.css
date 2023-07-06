@@ -1,0 +1,22 @@
+.gptContainer {
+    display: flex;
+    justify-content: left;
+    width: 100%;
+}
+
+.gptMessage {
+    background-color: var(--light-accent);
+    color: var(--accent);
+    font-weight: bold;
+    padding: 1rem;
+    margin: 1rem;
+    margin-left: 0;
+    border-radius: 1rem 1rem 1rem 0;
+    max-width: 70%;
+}
+
+.gptContainer textarea {
+    background-color: var(--light-accent);
+    width: 100%;
+    padding: 0;
+}

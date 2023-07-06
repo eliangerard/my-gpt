@@ -1,0 +1,45 @@
+h1 {
+    color: var(--accent);
+    font-weight: 900;
+    font-family: 'Montserrat';
+}
+
+#welcome {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 100%;
+}
+
+.sd {
+    text-align: center !important;
+    margin: 0 !important;
+    margin: 1rem 0;
+    background-color: var(--accent);
+    padding: 1rem 0;
+    border-radius: 1rem;
+    color: var(--background);
+}
+
+.welcomeSD {
+    height: fit-content !important;
+}
+
+#welcome div {
+    border-radius: 1rem;
+    color: var(--accent);
+    padding: 1rem;
+    width: 60%;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0.5rem 0;
+    transition: outline 100ms ease-in-out;
+}
+
+#welcome p {
+    text-align: left;
+    font-size: large;
+    margin: 0.5rem 0;
+}

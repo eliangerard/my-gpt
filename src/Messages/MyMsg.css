@@ -1,0 +1,16 @@
+.mmContainer {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+}
+
+.myMessage {
+    background-color: var(--accent);
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem 1rem 0 1rem;
+    max-width: 60%;
+    margin-right: 0;
+}
